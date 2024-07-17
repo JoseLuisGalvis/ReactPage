@@ -6,7 +6,7 @@ const NavBar = () => {
     <Navbar bg="light" expand="lg">
       <Container className="mx-auto">
         <Navbar.Brand href="#home">
-        <img src="../public/images/panaderia.png" alt="Logo" style={{ width: '2em', height: '2em' }} />
+        <img src="/images/panaderia.png" alt="Logo" style={{ width: '2em', height: '2em' }} />
           <span>Panadería Mi Pan</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

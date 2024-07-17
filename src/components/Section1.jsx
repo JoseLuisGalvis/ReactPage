@@ -5,7 +5,7 @@ const Section1 = () => {
     <div
       style={{
         height: '100vh',
-        backgroundImage: 'url(../public/images/mipan.jpeg)', 
+        backgroundImage: 'url(/images/mipan.jpeg)', 
         backgroundSize: 'cover',
         display: 'flex',
         justifyContent: 'center',
