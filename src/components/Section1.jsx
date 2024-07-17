@@ -5,13 +5,19 @@ const Section1 = () => {
     <div
       style={{
         height: '100vh',
-        backgroundColor: 'red',
+        backgroundImage: 'url(../public/images/mipan.jpeg)', 
+        backgroundSize: 'cover',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        color: 'white',
       }}
     >
-      <h1>Componente 1</h1>
+      <h1>
+        <span style={{ fontSize: '2em' }}>Panaderia Mi Pan</span>
+        <br />
+        <span style={{ fontSize: '1em' }}>Bienvenidos</span>
+      </h1>
     </div>
   );
 };
