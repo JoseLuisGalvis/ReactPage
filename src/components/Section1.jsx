@@ -14,7 +14,7 @@ const Section1 = () => {
       }}
     >
       <h1>
-        <span style={{ fontSize: '2em' }}>Panaderia Mi Pan</span>
+        <span style={{ fontSize: '2em', textShadow: '10px 5px 10px rgba(0, 0, 0, 0.3)' }}>Panaderia Mi Pan</span>
         <br />
         <span style={{ fontSize: '1em' }}>Bienvenidos</span>
       </h1>
